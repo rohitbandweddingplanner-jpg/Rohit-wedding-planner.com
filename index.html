@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rohit Band Wedding Planner</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+background:#fff;
+overflow-x:hidden;
+}
+
+/* HERO SECTION */
+
+.hero{
+height:100vh;
+background:
+linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
+url('https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg');
+background-size:cover;
+background-position:center;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+}
+
+.hero-content h1{
+font-size:70px;
+color:white;
+margin-bottom:15px;
+text-shadow:0 5px 15px rgba(0,0,0,.4);
+}
+
+.hero-content p{
+font-size:24px;
+color:white;
+margin-bottom:25px;
+}
+
+.btn{
+display:inline-block;
+padding:15px 35px;
+background:#d4af37;
+color:white;
+text-decoration:none;
+border-radius:50px;
+font-weight:600;
+margin:5px;
+transition:.3s;
+}
+
+.btn:hover{
+transform:translateY(-5px);
+}
+
+.whatsapp-btn{
+background:#25D366;
+}
+
+/* SECTION */
+
+section{
+padding:80px 8%;
+}
+
+.title{
+text-align:center;
+font-size:42px;
+color:#d4af37;
+margin-bottom:40px;
+}
+
+.about{
+max-width:900px;
+margin:auto;
+text-align:center;
+line-height:1.8;
+font-size:18px;
+}
+
+/* SERVICES */
+
+.services{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:25px;
+}
+
+.card{
+background:white;
+border-radius:20px;
+overflow:hidden;
+box-shadow:0 10px 25px rgba(0,0,0,.1);
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+.card img{
+width:100%;
+height:220px;
+object-fit:cover;
+}
+
+.card-content{
+padding:20px;
+}
+
+.card-content h3{
+color:#d4af37;
+margin-bottom:10px;
+}
+
+/* GALLERY */
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:20px;
+}
+
+.gallery img{
+width:100%;
+height:300px;
+object-fit:cover;
+border-radius:20px;
+box-shadow:0 10px 25px rgba(0,0,0,.1);
+transition:.4s;
+}
+
+.gallery img:hover{
+transform:scale(1.05);
+}
+
+/* CONTACT */
+
+.contact{
+background:#111;
+color:white;
+text-align:center;
+}
+
+.contact h2{
+color:#d4af37;
+margin-bottom:20px;
+}
+
+.contact p{
+font-size:18px;
+margin:10px 0;
+}
+
+footer{
+background:black;
+color:#aaa;
+text-align:center;
+padding:20px;
+}
+
+.floating-whatsapp{
+position:fixed;
+right:20px;
+bottom:20px;
+background:#25D366;
+color:white;
+text-decoration:none;
+padding:15px 20px;
+border-radius:50px;
+font-weight:bold;
+box-shadow:0 5px 20px rgba(0,0,0,.3);
+z-index:999;
+}
+
+@media(max-width:768px){
+
+.hero-content h1{
+font-size:40px;
+}
+
+.hero-content p{
+font-size:18px;
+}
+
+.title{
+font-size:30px;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- HERO -->
+
+<section class="hero">
+<div class="hero-content">
+<h1>Rohit Band Wedding Planner</h1>
+<p>Luxury Weddings • Royal Entries • Band Baja • Ghodi • Decoration</p>
+
+<a href="tel:09873517633" class="btn">📞 Call Now</a>
+
+<a href="https://wa.me/919873005575" class="btn whatsapp-btn">
+WhatsApp
+</a>
+
+</div>
+</section>
+
+<!-- ABOUT -->
+
+<section>
+
+<h2 class="title">About Us</h2>
+
+<div class="about">
+Rohit Band Wedding Planner is a trusted name in Delhi NCR for
+Wedding Planning, Band Baja, Ghodi, Baggi, Bridal Entry,
+Wedding Decoration, Lighting, DJ Setup and Complete Event
+Management Services. We create unforgettable wedding memories
+with royal arrangements and professional planning.
+</div>
+
+</section>
+
+<!-- SERVICES -->
+
+<section>
+
+<h2 class="title">Our Services</h2>
+
+<div class="services">
+
+<div class="card">
+<img src="https://images.pexels.com/photos/265722/pexels-photo-265722.jpeg">
+<div class="card-content">
+<h3>Wedding Decoration</h3>
+<p>Luxury stage and venue decoration.</p>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.pexels.com/photos/169190/pexels-photo-169190.jpeg">
+<div class="card-content">
+<h3>Bridal Entry</h3>
+<p>Beautiful and memorable bridal entries.</p>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.pexels.com/photos/1444442/pexels-photo-1444442.jpeg">
+<div class="card-content">
+<h3>Band Baja</h3>
+<p>Professional wedding band arrangements.</p>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.pexels.com/photos/2253879/pexels-photo-2253879.jpeg">
+<div class="card-content">
+<h3>Lighting & DJ</h3>
+<p>Modern DJ and lighting setup.</p>
+</div>
+</div>
+
+</div>
+
+</section>
+
+<!-- GALLERY -->
+
+<section>
+
+<h2 class="title">Wedding Gallery</h2>
+
+<div class="gallery">
+
+<img src="https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg">
+
+<img src="https://images.pexels.com/photos/265722/pexels-photo-265722.jpeg">
+
+<img src="https://images.pexels.com/photos/169190/pexels-photo-169190.jpeg">
+
+<img src="https://images.pexels.com/photos/1444442/pexels-photo-1444442.jpeg">
+
+<img src="https://images.pexels.com/photos/2253879/pexels-photo-2253879.jpeg">
+
+<img src="https://images.pexels.com/photos/2781104/pexels-photo-2781104.jpeg">
+
+</div>
+
+</section>
+
+<!-- CONTACT -->
+
+<section class="contact">
+
+<h2>Contact Us</h2>
+
+<p>📞 09873517633</p>
+
+<p>📞 9873005575</p>
+
+<p>
+📍 NTPC Gate No. 3,<br>
+Jaitpur Road, Badarpur Road,<br>
+New Delhi
+</p>
+
+<br>
+
+<a href="tel:09873517633" class="btn">Book Your Wedding</a>
+
+</section>
+
+<footer>
+© 2026 Rohit Band Wedding Planner | All Rights Reserved
+</footer>
+
+<a class="floating-whatsapp"
+href="https://wa.me/919873005575">
+WhatsApp Now
+</a>
+
+</body>
+</html>
